@@ -1,13 +1,8 @@
 import turtle
 Rafael = turtle.Turtle()
 Rafael.shape("turtle")
-Rafael.color("green")
-Rafael.circle(100)
-Rafael.circle(100,steps=6)
-Rafael.forward(100)
-Rafael.colour("pink")
-Rafael.circle(50)
-Rafael.right(90)
-Rafael.backward(50)
-Rafael.colour("blue")
-Rafael.circle(50)
+
+for i in range(5,18):
+  Rafael.circle(100)
+  Rafael.circle(100,steps=5)
+  Rafael.right(30)
